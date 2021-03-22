@@ -11,7 +11,7 @@ print(exec_time3)
 fxc.throttling_enabled = False
 n = 2000
 estimate = []
-def matrix(res):
+def matrix(ress):
     return ress
 mat1 = ([1, 6, 5],[3 ,4, 8],[2, 12, 3])
 mat2 = ([3, 4, 6],[5, 6, 7],[6,56, 7])
