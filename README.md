@@ -71,18 +71,18 @@ Note: This task may take upto 5 hours
  
          wget https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
  
-        tar xf Python-3.6.4.tar.xz
+         tar xf Python-3.6.4.tar.xz
  
  
-        cd Python-3.6.4
-      	./configure
-       make
-       sudo make altinstall
-    	ls /usr/bin/python*
-       ls /usr/local/bin/python*
-       sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
-       sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
-       sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.6 3
+         cd Python-3.6.4
+         ./configure
+        make
+        sudo make altinstall
+        ls /usr/bin/python*
+        ls /usr/local/bin/python*
+        sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+        sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+        sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.6 3
 
 You will now have the python version 3.6 install on your Raspberry pi.
  
